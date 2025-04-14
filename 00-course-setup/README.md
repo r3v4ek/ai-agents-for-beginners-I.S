@@ -68,9 +68,9 @@ To ensure you have all the required Python packages to run the code, run the fol
 
 We recommend creating a Python virtual environment to avoid any conflicts and issues.
 
-```bash
-pip install -r requirements.txt
-```
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install -r requirements.txt
 
 This should install the required Python packages.
 
